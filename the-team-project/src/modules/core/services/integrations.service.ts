@@ -9,8 +9,7 @@ import { environment } from '../../../environments/environment';
 export class IntegrationsService {
   apiUrl = environment.apiUrl;
 
-  constructor(private http: HttpClient) {
-  }
+  constructor(private http: HttpClient) {}
 
   getAll(): Observable<Integration[]> {
     return this.http.get<Integration[]>(`${this.apiUrl}/integrations`);

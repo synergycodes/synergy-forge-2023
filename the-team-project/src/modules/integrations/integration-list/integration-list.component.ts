@@ -13,8 +13,7 @@ import { Integration } from '../../../types';
 export class IntegrationListComponent implements OnInit {
   integrations$!: Observable<Integration[]>;
 
-  constructor(private integrationService: IntegrationsService) {
-  }
+  constructor(private integrationService: IntegrationsService) {}
 
   ngOnInit(): void {
     this.integrations$ = this.integrationService.getAll();

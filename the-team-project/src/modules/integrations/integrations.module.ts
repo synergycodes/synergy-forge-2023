@@ -18,4 +18,4 @@ const routes: Routes = [
   declarations: [IntegrationListComponent, IntegrationItemComponent],
   providers: [],
 })
-export class IntegrationsModule { }
+export class IntegrationsModule {}
