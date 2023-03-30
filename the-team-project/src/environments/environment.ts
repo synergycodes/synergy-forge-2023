@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://synergy-forge-2023.rnd.synergy.codes/api'
+  apiUrl: 'https://synergy-forge-2023.rnd.synergy.codes/api',
 };
 
 /*
